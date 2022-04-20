@@ -2302,11 +2302,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\wojta\\Desktop\\projekt_REST\\auth\\auth\\auth.csproj",
+      "projectUniqueName": "C:\\Users\\wojta\\Desktop\\REST_FINAL\\REST_projcet_final\\auth\\auth\\auth.csproj",
       "projectName": "auth",
-      "projectPath": "C:\\Users\\wojta\\Desktop\\projekt_REST\\auth\\auth\\auth.csproj",
+      "projectPath": "C:\\Users\\wojta\\Desktop\\REST_FINAL\\REST_projcet_final\\auth\\auth\\auth.csproj",
       "packagesPath": "C:\\Users\\wojta\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\wojta\\Desktop\\projekt_REST\\auth\\auth\\obj\\",
+      "outputPath": "C:\\Users\\wojta\\Desktop\\REST_FINAL\\REST_projcet_final\\auth\\auth\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\wojta\\AppData\\Roaming\\NuGet\\NuGet.Config",

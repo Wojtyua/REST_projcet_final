@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YcVksv31DGQRAGU+wztN7GSVT7n48lImJEILTcnurQRHoyp2GTglrRs1YQoA4fObaU3slIVs0lYFcOKz7KjUpA==",
+  "dgSpecHash": "kdv3cY9g4gLUcAd84iChf2kwV+BTursJHH8ACImTCuIexcXP6WWzgniaONGOUMcx00WClxTFwgnGxQWBwda75w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\wojta\\Desktop\\projekt_REST\\auth\\auth\\auth.csproj",
+  "projectFilePath": "C:\\Users\\wojta\\Desktop\\REST_FINAL\\REST_projcet_final\\auth\\auth\\auth.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wojta\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\wojta\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

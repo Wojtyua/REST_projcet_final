@@ -3,10 +3,12 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./routes/home.component";
 import Register from "./routes/register.component";
 import MenuAppBar from "./components/navigationBar.component";
+import Profile from "./routes/profile.component";
 import { useEffect, useState } from "react";
 
 const App = () => {
   const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
 
   useEffect(() => {
     (async () => {
@@ -16,6 +18,7 @@ const App = () => {
       });
       const content = await response.json();
       setName(content.username);
+      setEmail(content.email);
     })();
   });
 
@@ -29,6 +32,10 @@ const App = () => {
         <Route index element={<Home name={name} />} />
         <Route path="/login" element={<Login setName={setName} />} />
         <Route path="/register" element={<Register />} />
+        <Route
+          path="/profile"
+          element={<Profile name={name} email={email} setName={setName} />}
+        />
       </Route>
     </Routes>
   );

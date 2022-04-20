@@ -1,7 +1,11 @@
 const Home = (props) => {
   return (
     <div>
-      <h1>{props.name ? "SIEMA " + props.name : "ZALOGUJ SIE WARIACIE"}</h1>
+      <h1>
+        {props.name
+          ? props.name + " ma wielkiego kutonga"
+          : "ZALOGUJ SIE WARIACIE"}
+      </h1>
     </div>
   );
 };

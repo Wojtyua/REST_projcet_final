@@ -6,7 +6,6 @@ import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import { Navigate } from "react-router-dom";
-//import axios from "axios";
 
 const Login = (props) => {
   const [redirect, setRedirect] = useState(false);
@@ -36,9 +35,9 @@ const Login = (props) => {
       });
       const content = await response.json();
       props.setName(content.username);
-    }
 
-    setRedirect(true);
+      setRedirect(true);
+    }
   };
 
   if (redirect) {

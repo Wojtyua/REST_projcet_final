@@ -125,7 +125,8 @@ namespace auth.Controllers
 
                 int userId = int.Parse(token.Issuer);
 
-                Logout();
+                var user = _repository.GetById(userId);
+
                 return Ok(_repository.DeleteUser(userId));
 
             }

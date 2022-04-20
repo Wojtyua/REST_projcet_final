@@ -71,7 +71,13 @@ export default function MenuAppBar(props) {
                 open={Boolean(anchorEl)}
                 onClose={handleClose}
               >
-                <MenuItem onClick={handleClose}>Profile</MenuItem>
+                <Link
+                  style={{ color: "inherit", textDecoration: "inherit" }}
+                  to="/profile"
+                >
+                  <MenuItem onClick={handleClose}>Profile</MenuItem>
+                </Link>
+
                 <Link
                   style={{ color: "inherit", textDecoration: "inherit" }}
                   to="/"
